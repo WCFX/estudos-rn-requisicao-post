@@ -3,7 +3,6 @@ import { View, Text, SafeAreaView, TouchableOpacity, TextInput } from 'react-nat
 
 import styles from './style';
 
-
 const Home = () => {
 
   const [title, setTitle ] = useState('');
@@ -32,7 +31,6 @@ const Home = () => {
       alert("Preencha as informações.");
     }
   }
-
 
   return(
     <SafeAreaView style={styles.container}>
